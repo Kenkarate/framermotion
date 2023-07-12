@@ -18,7 +18,7 @@ function App() {
             <Card />
           </div>
           <button className="border rounded border-black p-2 my-10">
-            Explore more
+             Explore more
           </button>
         </div>
         <div className="text-center py-44">
@@ -26,7 +26,6 @@ function App() {
             “If you can dream it, you can do it.” ―Walt Disney.
           </p>
         </div>
-        <div></div>
       </div>
       <Footer/>
     </div>

@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div>
-      <div className="h-[60vh] bg-amber-300 py-10">
+      <div className="h-[30vh] bg-amber-300 py-10">
         <div className="grid grid-cols-3">
           <p className="capitalize col-span-2 text-[30px] font-bold px-10 my-auto">
           Success is not final; failure is not fatal: It is the courage to continue that counts.

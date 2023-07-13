@@ -1,9 +1,14 @@
 import React from "react";
 import yt from "../assets/download.png";
+import {motion} from 'framer-motion'
 
 function Card() {
   return (
-    <div className="p-10">
+    <motion.div className="p-10"
+    initial={{opacity:0}}
+    animate={{opacity:1}}
+    transition={{duration:2, delay:1.5}}
+    >
       <div class="max-w-sm rounded overflow-hidden shadow-lg bg-red-100">
         <img class="w-full" src={yt} alt="Sunset in the mountains" />
         <div class="px-6 py-4">
@@ -26,7 +31,7 @@ function Card() {
           </span>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

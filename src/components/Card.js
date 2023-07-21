@@ -1,8 +1,10 @@
 import React from "react";
 import yt from "../assets/download.png";
+import { motion } from "framer-motion";
 
 function Card() {
   return (
+
     <div className="p-10">
       <div class="max-w-sm rounded overflow-hidden shadow-lg bg-red-100">
         <img class="w-full" src={yt} alt="Sunset in the mountains" />
@@ -27,6 +29,7 @@ function Card() {
         </div>
       </div>
     </div>
+
   );
 }
 
